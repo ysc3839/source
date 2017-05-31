@@ -244,7 +244,8 @@ miniembplug)
 	set_wifi_led "$board:red:wlan"
 	set_usb_led "$board:green:mobile"
 	;;
-miwifi-mini)
+miwifi-mini|\
+miwifi-3)
 	ucidef_set_led_default "power" "power" "$board:red:status" "1"
 	;;
 mlw221|\
