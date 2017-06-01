@@ -90,7 +90,7 @@
 		};
 
 		yellow {
-			label = "miwifi-3i:yellow:status";
+			label = "miwifi-3:yellow:status";
 			gpios = <&gpio1 2 1>;
 		};
 
